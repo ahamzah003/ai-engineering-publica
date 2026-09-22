@@ -1,0 +1,10 @@
+# Ignore Jupyter Notebook checkpoints
+python/.ipynb_checkpoints/
+python/projects/.ipynb_checkpoints/
+
+# Ignore Anaconda files
+anaconda_projects/
+
+# Ignore codebooks
+python/codebooks/
+
