@@ -1,6 +1,5 @@
-# Ignore Jupyter Notebook checkpoints
-python/.ipynb_checkpoints/
-python/projects/.ipynb_checkpoints/
+# Ignore all Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
 
 # Ignore Anaconda files
 anaconda_projects/
