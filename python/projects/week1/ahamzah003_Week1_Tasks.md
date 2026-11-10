@@ -1,25 +1,10 @@
 # Week 1 Python Foundations Capstone — Student Grade Report Generator
 
-## What the project is about
+## 📖 What the project is about
 
-This capstone is a progressively built **Student Grade Profile System** that I developed during Week 1 of the Introduction to Python Programming course @Publica-AI Academy. The Tasks 1–5 build on one another, with each task introducing another set of Python concepts until the final task becomes a **multi-student class grade report generator**.
+It allows a teacher to process students' scores and attendance, determine their grades and PASS/FAIL status, and generate a class summary showing the **class average and number of students who passed**.
 
-The final program allows a user to enter students one after another, calculate each student's final score, assign a letter grade, determine PASS/FAIL status using both score and attendance, and produce a summary showing the **class average and number of students who passed**.
-
-## How the project develops
-
-| Stage | Main purpose | Python concepts introduced |
-|---|---|---|
-| **Task 1** | Personal introduction card | `print()`, `input()`, comments, indentation |
-| **Task 2** | Student profile | Variables, data types, `type()`, casting |
-| **Task 3** | Grade & eligibility calculations | Arithmetic, comparisons, logical operators, `+=`, `//`, `%` |
-| **Task 4** | Single-student grade classifier | `if`, `elif`, `else`, truthy/falsy checks |
-| **Task 5 — Capstone** | Multi-student class report | `while`, `for`, `range()`, `break`, `continue` |
-
-Thus, the final capstone is essentially the **Task 4 single-student grade classifier** expanded into a **small class-level reporting system** in Task 5.
-
-## What the final capstone does
-
+### 🔄 Project Workflow
 For each student, the program:
 
 1. Requests the student's name. Entering **`Done` (case insensitive)** ends data collection.
@@ -44,9 +29,25 @@ For each student, the program:
    - number of students who passed.
 10. When data entry ends, calculates and displays the **class average** and **pass count**.
 
-## Important design constraint
+## 💡 Python Concepts Applied
 
-The instructions deliberately restricted the project to concepts that have been taught up to each point in Week 1. In particular, the project **must not use**:
+This project is a progressively built **Student Grade Profile System** developed across five tasks during Week 1 of the Introduction to Python Programming course at Publica-AI Academy. Each task introduces another group of Python concepts, and the final Task 5 combines them into a multi-student grade report generator.
+
+The progression is:
+
+| Stage | Main purpose | Python concepts introduced |
+|---|---|---|
+| **Task 1** | Personal introduction card | `print()`, `input()`, comments, indentation |
+| **Task 2** | Student profile | Variables, data types, `type()`, casting |
+| **Task 3** | Grade & eligibility calculations | Arithmetic, comparisons, logical operators, `+=`, `//`, `%` |
+| **Task 4** | Single-student grade classifier | `if`, `elif`, `else`, truthy/falsy checks |
+| **Task 5 — Capstone** | Multi-student class report | `while`, `for`, `range()`, `break`, `continue` |
+
+Thus, the final capstone is essentially the **Task 4 single-student grade classifier** expanded into a **small class-level reporting system** in Task 5.
+
+## Instructions and restrictions
+
+The instructor deliberately restricted the project to concepts that had been taught up to each point in Week 1. In particular, the project **must not use**:
 
 - f-strings or other string-formatting shortcuts such as `.format()` and `%`;
 - lists, tuples, sets, or dictionaries;
@@ -56,7 +57,6 @@ These concepts were reserved for later weeks. Consequently, Task 5 cannot store 
 
 ## Overall project idea
 
-In simple terms, this project demonstrates how a basic Python program can evolve from **collecting and displaying information about one student** into a **loop-driven system capable of processing an entire class**.
+In simple terms, **this week's capstone is a student grade-reporting system that demonstrates how progressively introduced Python fundamentals can be combined into a practical application.**
 
-The capstone therefore serves as a practical demonstration of the Week 1 progression from basic Python syntax and data types through calculations and conditionals, and finally to **iteration and control flow** with `while`, `for`, `break`, and `continue`.
-
+The project moves from collecting and displaying basic information about one student to processing multiple students, applying grading and attendance rules, and producing a class-wide summary. It demonstrates the progression from basic syntax and data types through calculations and conditionals, and finally to **iteration and control flow** with `while`, `for`, `break`, and `continue`.

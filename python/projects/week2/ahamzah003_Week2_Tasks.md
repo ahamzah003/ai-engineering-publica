@@ -10,7 +10,7 @@ It allows a customer to build a shopping cart interactively:
 4. It calculates and displays the total cost of the cart.
 5. It reports whether delivery is free or not based on the cart total.
 
-🛒 Curious how this shopping cart works? Download and run the [[script](https://github.com/ahamzah003/ai-engineering-publica/blob/master/python/projects/week2/ShoppingCart.py)] to see it come to life! ✨
+🛒 Curious how this shopping cart works? Download and run the [script](https://raw.githubusercontent.com/ahamzah003/ai-engineering-publica/master/python/projects/week2/ShoppingCart.py) to see it come to life! ✨
 
 ## Python Concepts Applied
 
