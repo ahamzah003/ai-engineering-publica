@@ -5,6 +5,8 @@
 It allows a teacher to process students' scores and attendance, determine their grades and PASS/FAIL status, and generate a class summary showing the **class average and number of students who passed**.
 
 ### 🔄 Project Workflow
+🚀 Download and run the [[script](https://github.com/ahamzah003/ai-engineering-publica/blob/master/python/projects/week1/StudentGradeReportGenerator.py)] to see the workflow in action.
+ 
 For each student, the program:
 
 1. Requests the student's name. Entering **`Done` (case insensitive)** ends data collection.
@@ -45,7 +47,7 @@ The progression is:
 
 Thus, the final capstone is essentially the **Task 4 single-student grade classifier** expanded into a **small class-level reporting system** in Task 5.
 
-## Instructions and restrictions
+## 🚦 Instructions and restrictions
 
 The instructor deliberately restricted the project to concepts that had been taught up to each point in Week 1. In particular, the project **must not use**:
 
@@ -55,7 +57,7 @@ The instructor deliberately restricted the project to concepts that had been tau
 
 These concepts were reserved for later weeks. Consequently, Task 5 cannot store all student records in a list. Instead, it **reports each student immediately and maintains running totals** using variables and augmented assignment.
 
-## Overall project idea
+## 🧠 Overall project idea
 
 In simple terms, **this week's capstone is a student grade-reporting system that demonstrates how progressively introduced Python fundamentals can be combined into a practical application.**
 
